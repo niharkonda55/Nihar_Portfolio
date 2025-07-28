@@ -1,7 +1,7 @@
 Please Visit my page - https://kondanihar.netlify.app/ 
 
 
-# Cybersecurity Portfolio
+#Portfolio
 --------------------------
 A modern, interactive portfolio website featuring cyberpunk aesthetics and smooth animations.
 
