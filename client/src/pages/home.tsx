@@ -24,7 +24,7 @@ export default function Home() {
       
       <footer className="py-12 px-6 border-t border-gray-800">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-gray-400 mb-4">&copy; 2024 Cybersecurity Professional. All rights reserved.</p>
+          <p className="text-gray-400 mb-4">&copy; 2025 Cybersecurity Professional. All rights reserved.</p>
           <div className="flex justify-center space-x-6">
             <a 
               href="#" 
