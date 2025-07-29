@@ -27,21 +27,29 @@ export default function HeroSection() {
           animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight">
-            <span className="gradient-text">Konda Nihar</span><br />
-            {/* <span className="text-white"></span> */}
+          <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold mb-6 leading-tight">
+            <span className="text-white">Hi I'm </span>
+            <motion.span
+              className="gradient-text text-[var(--cyber-green)] inline-block"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={isVisible ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
+              transition={{ delay: 0.3, duration: 0.6, ease: 'easeOut' }}
+            >
+              Konda Nihar
+            </motion.span>
           </h1>
+
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Specializing in Computer Science - Cybersecurity
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button 
+            <button
               onClick={handleDownloadResume}
               className="bg-[var(--cyber-green)] text-[var(--cyber-dark)] px-8 py-4 rounded-full font-semibold hover-glow transition-all magnetic-hover"
             >
               <i className="fas fa-download mr-2"></i>Download Resume
             </button>
-            <button 
+            <button
               onClick={handleGetInTouch}
               className="border border-[var(--cyber-blue)] text-[var(--cyber-blue)] px-8 py-4 rounded-full font-semibold hover-glow transition-all magnetic-hover"
             >
@@ -50,11 +58,11 @@ export default function HeroSection() {
           </div>
         </motion.div>
       </div>
-      
+
       {/* Floating Elements */}
-      <motion.div 
+      <motion.div
         className="absolute top-20 left-20 w-20 h-20 border border-[var(--cyber-green)] rounded-lg"
-        animate={{ 
+        animate={{
           y: [0, -20, 0],
           rotate: [0, 180, 360]
         }}
@@ -64,9 +72,9 @@ export default function HeroSection() {
           ease: "easeInOut"
         }}
       />
-      <motion.div 
+      <motion.div
         className="absolute bottom-20 right-20 w-16 h-16 border border-[var(--cyber-blue)] rounded-full"
-        animate={{ 
+        animate={{
           y: [0, -20, 0],
           scale: [1, 1.1, 1]
         }}
@@ -77,9 +85,9 @@ export default function HeroSection() {
           delay: -2
         }}
       />
-      <motion.div 
+      <motion.div
         className="absolute top-1/2 left-10 w-12 h-12 border border-[var(--cyber-purple)] rounded-lg"
-        animate={{ 
+        animate={{
           y: [0, -15, 0],
           x: [0, 10, 0]
         }}

@@ -13,6 +13,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "slate-dark": "#0c0c1d",
+        "neon-green": "#39ff14",
+        "electric": "#00ffff",
+        "neon-purple": "#9d00ff",
+        "neon-orange": "#ff8c00",
+        "neon-pink": "#ff6ec7",
+        "neon-blue": "#1b03a3",
         card: {
           DEFAULT: "var(--card)",
           foreground: "var(--card-foreground)",
