@@ -42,11 +42,11 @@ export default function SkillsSection() {
       title: "Tools & Platforms",
       icon: "fas fa-tools",
       skills: [
-        { name: "GitHub", icon: "fab fa-git-alt" },
-        { name: "Kali linux", icon: "fab fa-kali" },
-        { name: "Nmap/Netcat", icon: "fas fa-cubes" },
-        { name: "VS Code", icon: "fab fa-aws" },
-        { name: "Metamask(Web3)", icon: "fab fa-linux" }
+        { name: "GitHub", icon: "fab fa-github" },
+        { name: "Kali Linux", icon: "fas fa-skull-crossbones" }, // symbolic
+        { name: "Nmap / Netcat", icon: "fas fa-network-wired" },
+        { name: "VS Code", icon: "fas fa-code" },
+        { name: "Metamask (Web3)", icon: "fas fa-mask" } // generic; consider SVG
       ]
     }
   ];
