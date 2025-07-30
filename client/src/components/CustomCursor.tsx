@@ -33,14 +33,14 @@ export default function CustomCursor() {
 
   return (
     <>
-      <div 
+      <div
         className="custom-cursor"
         style={{
           left: `${cursorPos.x}px`,
           top: `${cursorPos.y}px`,
         }}
       />
-      <div 
+      <div
         className="cursor-follower"
         style={{
           left: `${followerPos.x}px`,
