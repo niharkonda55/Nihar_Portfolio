@@ -17,11 +17,6 @@ export default function CertificatesSection() {
             icon: "fas fa-flag",
         },
         {
-            title: "Digital 101 Journey",
-            provider: "Digital Skills Program",
-            icon: "fas fa-globe",
-        },
-        {
             title: "Palo Alto Networks Certificate",
             provider: "Palo Alto Networks",
             icon: "fas fa-shield-alt",

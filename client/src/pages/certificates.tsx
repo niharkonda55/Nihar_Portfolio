@@ -8,31 +8,25 @@ export default function CertificatesPage() {
         {
             title: "Google Cybersecurity Professional Certificate",
             provider: "Coursera",
-            file: "/certficates/Coursera_1753725836629.pdf",
+            file: "/Coursera.pdf",
             description: "8-course specialization covering cybersecurity fundamentals, network security, and incident response"
         },
         {
-            title: "ApoorvCTF Certificate",
-            provider: "Cybersecurity Competition",
-            file: "/certficates/ApoorvCTF-Certificate_1753725836628.pdf",
-            description: "Capture The Flag cybersecurity competition certificate"
-        },
-        {
-            title: "Digital 101 Journey",
-            provider: "Digital Skills Program",
-            file: "/certficates/Digital 101_1753725836629.pdf",
-            description: "Digital literacy and technology foundations certification"
+            title: "Python for Data Analysis",
+            provider: "Infosys",
+            file: "/Python_Infosys.pdf",
+            description: "Data Analysis using Puython and Pandas"
         },
         {
             title: "Palo Alto Networks Certificate",
             provider: "Palo Alto Networks",
-            file: "/certficates/Palo-Alto_1753725836629.pdf",
+            file: "/Paloalto_Final certificate.pdf",
             description: "Network security and firewall management certification"
         },
         {
             title: "Zscaler Certificate",
             provider: "Zscaler",
-            file: "/certficates/Zscaler_1753725836630.pdf",
+            file: "/Zscaler_final_AICTE.pdf",
             description: "Cloud security and zero trust architecture certification"
         }
     ];
