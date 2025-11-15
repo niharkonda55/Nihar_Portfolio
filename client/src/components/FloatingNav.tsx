@@ -30,6 +30,14 @@ export default function FloatingNav() {
         </li>
         <li>
           <button
+            onClick={() => scrollToSection('experience')}
+            className="hover:text-[var(--cyber-green)] transition-colors relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-[var(--cyber-green)] hover:after:w-full after:transition-all after:duration-300"
+          >
+            Experience
+          </button>
+        </li>
+        <li>
+          <button
             onClick={() => scrollToSection('skills')}
             className="hover:text-[var(--cyber-green)] transition-colors relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[2px] after:bg-[var(--cyber-green)] hover:after:w-full after:transition-all after:duration-300"
           >

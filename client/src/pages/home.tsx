@@ -4,10 +4,12 @@ import ParticleBackground from "@/components/ParticleBackground";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import SkillsSection from "@/components/SkillsSection";
+import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import AchievementsSection from "@/components/AchievementsSection";
 import CertificatesSection from "@/components/CertificatesSection";
+
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -19,6 +21,7 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
+        <ExperienceSection />
         <ProjectsSection />
         <AchievementsSection />
         <CertificatesSection />
@@ -30,23 +33,23 @@ export default function Home() {
           <p className="text-gray-400 mb-4">&copy; 2025 Cybersecurity Professional. All rights reserved.</p>
           <div className="flex justify-center space-x-6">
             <a
-              href="#"
+              href="https://github.com/niharkonda55"
               className="text-gray-400 hover:text-[var(--cyber-green)] transition-colors magnetic-hover"
-              onClick={(e) => e.preventDefault()}
+              onClick={(e) => {e.preventDefault(); window.open("https://github.com/niharkonda55", "_blank");}}
             >
               <i className="fab fa-github text-xl"></i>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/kondanihar55/"
               className="text-gray-400 hover:text-[var(--cyber-blue)] transition-colors magnetic-hover"
-              onClick={(e) => e.preventDefault()}
+              onClick={(e) => {e.preventDefault(); window.open("https://www.linkedin.com/in/kondanihar55/", "_blank");}}
             >
               <i className="fab fa-linkedin text-xl"></i>
             </a>
             <a
-              href="#"
+              href="https://x.com/nihar_konda55"
               className="text-gray-400 hover:text-[var(--cyber-purple)] transition-colors magnetic-hover"
-              onClick={(e) => e.preventDefault()}
+              onClick={(e) => {e.preventDefault(); window.open("https://x.com/nihar_konda55", "_blank");}}
             >
               <i className="fab fa-twitter text-xl"></i>
             </a>
